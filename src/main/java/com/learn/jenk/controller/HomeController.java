@@ -21,7 +21,7 @@ public class HomeController {
 			
 	@GetMapping("/hello")
 	public String getHello() {
-		LOGGER.debug("getHello method.....");
+		LOGGER.info("getHello method.....");
 		return "Success !! " + portNumber + " " + appName;
 	}
 }

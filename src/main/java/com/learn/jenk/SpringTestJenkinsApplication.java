@@ -10,7 +10,7 @@ public class SpringTestJenkinsApplication {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(SpringTestJenkinsApplication.class);
 	public static void main(String[] args) {
-		LOGGER.debug("SpringTestJenkinsApplication Application started....");
+		LOGGER.info("SpringTestJenkinsApplication Application started....");
 		SpringApplication.run(SpringTestJenkinsApplication.class, args);
 	}
 
